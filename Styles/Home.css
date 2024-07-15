@@ -1,0 +1,264 @@
+/* For the carousel part  */
+.carousel {
+    height: 450px;
+    background-color: rgb(248, 250, 249);
+
+}
+.cmtofcarousel {
+    position: relative;
+    right: 300px;
+    bottom: 100px;
+    color: black;
+}
+.carousel .desc{
+    width:300px;
+    position: relative;
+    left:350px;
+
+}
+.carosalimg {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 900px;
+    top:10px;
+}
+.buttonofcarousel {
+    border: 0px solid;
+    border-radius: 10%;
+}
+
+/* For the cards under the Carosule */
+/* .cardsundercar {
+    display: flex;
+    background-color: rgb(225, 231, 232);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 45px;
+}
+
+.card {
+    position:relative;
+    left:70px;
+    height: 280px;
+    width: 300px;
+    /* border: 0px solid; */
+    /* padding-top: 35px;
+    padding-right: 15px;
+    margin: 10px;
+    background-color: rgb(240, 219, 197);
+
+}
+
+.card img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+} */ 
+
+/* For Big Discount Part  */
+.bigdiscount {
+    margin: 50px 200px;
+}
+
+.bigdiscount h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bgproducts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+
+
+
+}
+
+.bgitems:hover {
+    box-shadow: 0px 0px 5px 2px rgb(138, 160, 216);
+    transform: scale(1.01);
+}
+
+.bgitems {
+    border: 0px solid;
+    box-shadow: 0px 0px 5px 2px rgb(219, 217, 217);
+    width: 300px;
+    height: 410px;
+    border-radius: 2%;
+    background-color: white;
+}
+
+.bgproductsimg {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+
+
+
+}
+
+.bgproducts p {
+    display: inline;
+    color: white;
+    background-color: rgb(35, 26, 131);
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+
+}
+
+.bgproducts h5 {
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+/* .bgstarscontainer {
+    margin-left: 20px;
+} */
+
+.bgproductsstar {
+    width: 30px;
+    height: 30px;
+
+}
+
+.bgitems button {
+    position: relative;
+    left: 230px;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: -30px;
+    border: 0px solid white;
+    background-color: white;
+    color: rgb(35, 26, 131);
+    padding-bottom: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 1px 1px rgb(232, 228, 228);
+
+
+}
+
+.bgitems button:hover {
+    color: white;
+    background-color: rgb(35, 26, 131);
+
+}
+
+/* For the New arraivalas  */
+/* For the card style i used all the same class name of the bigdiscount  */
+.newarrcontainer {
+    background-color: rgb(236, 238, 237);
+}
+
+.newarraivals {
+    margin: 50px 200px;
+    padding: 15px 0px;
+
+}
+
+.newarraivals h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service_item{
+    padding:20px;
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width:1400px;
+    /* height:100px; */
+    /* justify-content: center; */
+}
+
+/* for service item card */
+.service_item{
+    position:relative;
+    left:10px;
+}
+.service_item .item1{
+    position:relative;
+    left:70px;
+    height: 200px;
+    width: 300px;
+    /* border: 0px solid; */
+    padding-top: 55px;
+    padding-right: 15px;
+    margin: 8px;
+    background-color: rgb(240, 219, 197);
+}
+.service_item .item2{
+    position:relative;
+    left:70px;
+    height: 200px;
+    width: 300px;
+    /* border: 0px solid; */
+    padding-top: 55px;
+    padding-right: 15px;
+    margin: 8px;
+    background-color: rgb(201, 242, 175);
+}
+.service_item .item3{
+    position:relative;
+    left:70px;
+    height: 200px;
+    width: 300px;
+    /* border: 0px solid; */
+    padding-top: 55px;
+    padding-right: 15px;
+    margin: 8px;
+    background-color: rgb(178, 242, 247);
+}
+.service_item .item4{
+    position:relative;
+    left:70px;
+    height: 200px;
+    width: 300px;
+    /* border: 0px solid; */
+    padding-top: 55px;
+    padding-right: 15px;
+    margin: 8px;
+    background-color: rgb(242, 181, 246);
+}
+.service_item h1{
+    font-size: 20px;
+    position:relative;
+    left:70px;
+}
+.service_item div{
+    background-color: beige;
+    padding:10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+}
+.service_item p{
+    font-size: 0.9rem;
+    position:relative;
+    left:50px;
+    top:15px;
+}
+.service_item div:hover{
+    transform: scale(1.03);
+
+}
+.service_item div span{
+    position:relative;
+    left:130px;
+    bottom:18px;
+    font-size: 30px;
+}
